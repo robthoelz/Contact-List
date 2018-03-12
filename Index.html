@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/css/materialize.css">
+        <title>My Pokédex</title>
+    </head>
+    <body>
+        <div class="container">
+            <h1 class="center align">
+                Pokémon
+            </h1>
+            <input type="text" id="filterInput" placeholder="Search Pokémon....">
+            <ul id="Pokémon" class="collection with-header">
+                <li class="collection-header">
+                    <h5>1-50</h5>
+                </li>
+                <li class="collection-item">
+                    <a href="#">Bulbasaur</a>
+                </li>
+                <li class="collection-item">
+                    <a href="#">Ivysaur</a>
+                </li>
+                <li class="collection-item">
+                    <a href="#">Venusaur</a>
+                </li>
+                <li class="collection-item">
+                    <a href="#">Charmander</a>
+                </li>
+                <li class="collection-item">
+                    <a href="#">Charmeleon</a>
+                </li>
+                <li class="collection-item">
+                    <a href="#">Charizard</a>
+                </li>
+                <li class="collection-item">
+                    <a href="#">Squirtle</a>
+                </li>
+                <li class="collection-item">
+                    <a href="#">Wartortle</a>
+                </li>
+                <li class="collection-item">
+                    <a href="#">Blastoise</a>
+                </li>
+                <li class="collection-item">
+                    <a href="#">Caterpie</a>
+                </li>
+                <li class="collection-item">
+                    <a href="#">Metapod</a>
+                </li>
+                <li class="collection-item">
+                    <a href="#">Butterfree</a>
+                </li>
+                <li class="collection-item">
+                    <a href="#">Weedle</a>
+                </li>
+                <li class="collection-item">
+                    <a href="#">Kakuna</a>
+                </li>
+                <li class="collection-item">
+                    <a href="#">Beedrill</a>
+                </li>
+                <li class="collection-item">
+                    <a href="#">Pidgey</a>
+                </li>
+                <li class="collection-item">
+                    <a href="#">Pidgeotto</a>
+                </li>
+                <li class="collection-item">
+                    <a href="#">Pidgeot</a>
+                </li>
+                <li class="collection-item">
+                    <a href="#">Rattata</a>
+                </li>
+                <li class="collection-item">
+                    <a href="#">Raticate</a>
+                </li>
+                <li class="collection-item">
+                    <a href="#">Spearow</a>
+                </li>
+                <li class="collection-item">
+                    <a href="#">Fearow</a>
+                </li>
+                <li class="collection-item">
+                    <a href="#">Ekans</a>
+                </li>
+                <li class="collection-item">
+                    <a href="#">Arbok</a>
+                </li>
+                <li class="collection-item">
+                    <a href="#">Pikachu</a>
+                </li>
+                <li class="collection-item">
+                    <a href="#">Raichu</a>
+                </li>
+                <li class="collection-item">
+                    <a href="#">Sandshrew</a>
+                </li>
+                <li class="collection-item">
+                    <a href="#">Sandslash</a>
+                </li>
+                <li class="collection-item">
+                    <a href="#">Nidoran♀</a>
+                </li>
+                <li class="collection-item">
+                    <a href="#">Nidorina</a>
+                </li>
+                <li class="collection-item">
+                    <a href="#">Nidoqueen</a>
+                </li>
+                <li class="collection-item">
+                    <a href="#">Nidoran♂</a>
+                </li>
+                <li class="collection-item">
+                    <a href="#">Nidorino</a>
+                </li>
+                <li class="collection-item">
+                    <a href="#">Nidoking</a>
+                </li>
+                <li class="collection-item">
+                    <a href="#">Clefairy</a>
+                </li>
+                <li class="collection-item">
+                    <a href="#">Clefable</a>
+                </li>
+                <li class="collection-item">
+                    <a href="#">Vulpix</a>
+                </li>
+                <li class="collection-item">
+                    <a href="#">Ninetales</a>
+                </li>
+                <li class="collection-item">
+                    <a href="#">Jigglypuff</a>
+                </li>
+                <li class="collection-item">
+                    <a href="#">Wigglytuff</a>
+                </li>
+                <li class="collection-item">
+                    <a href="#">Zubat</a>
+                </li>
+                <li class="collection-item">
+                    <a href="#">Golbat</a>
+                </li>
+                <li class="collection-item">
+                    <a href="#">Oddish</a>
+                </li>
+                <li class="collection-item">
+                    <a href="#">Gloom</a>
+                </li>
+                <li class="collection-item">
+                    <a href="#">Vileplume</a>
+                </li>
+                <li class="collection-item">
+                    <a href="#">Paras</a>
+                </li>
+                <li class="collection-item">
+                    <a href="#">Parasect</a>
+                </li>
+                <li class="collection-item">
+                    <a href="#">Venonat</a>
+                </li>
+                <li class="collection-item">
+                    <a href="#">Venomoth</a>
+                </li>
+                <li class="collection-item">
+                    <a href="#">Diglett</a>
+                </li>
+                <li class="collection-header">
+                    <h5>51-100</h5>
+                </li>
+                <li class="collection-item">
+                    <a href="#">Dugtrio</a>
+                </li>
+                <li class="collection-item">
+                    <a href="#">Meowth</a>
+                </li>
+                <li class="collection-item">
+                    <a href="#">Persian</a>
+                </li>
+                <li class="collection-item">
+                    <a href="#">Psyduck</a>
+                </li>
+                <li class="collection-item">
+                    <a href="#">Golduck</a>
+                </li>
+                <li class="collection-item">
+                    <a href="#">Mankey</a>
+                </li>
+                <li class="collection-item">
+                    <a href="#">Primeape</a>
+                </li>
+                <li class="collection-item">
+                    <a href="#">Growlithe</a>
+                </li>
+                <li class="collection-item">
+                    <a href="#">Arcanine</a>
+                </li>
+                <li class="collection-item">
+                    <a href="#">Poliwag</a>
+                </li>
+                <li class="collection-item">
+                    <a href="#">Poliwhirl</a>
+                </li>
+                <li class="collection-item">
+                    <a href="#">Poliwrath</a>
+                </li>
+                <li class="collection-item">
+                    <a href="#">Abra</a>
+                </li>
+                <li class="collection-item">
+                    <a href="#">Kadabra</a>
+                </li>
+                <li class="collection-item">
+                    <a href="#">Alakazam</a>
+                </li>
+                <li class="collection-item">
+                    <a href="#">Machop</a>
+                </li>
+                <li class="collection-item">
+                    <a href="#">Machoke</a>
+                </li>
+                <li class="collection-item">
+                    <a href="#">Machamp</a>
+                </li>
+                <li class="collection-item">
+                    <a href="#">Bellsprout</a>
+                </li>
+                <li class="collection-item">
+                    <a href="#">Weepinbell</a>
+                </li>
+                <li class="collection-item">
+                    <a href="#">Victreebel</a>
+                </li>
+                <li class="collection-item">
+                    <a href="#">Tentacool</a>
+                </li>
+                <li class="collection-item">
+                    <a href="#">Tentacruel</a>
+                </li>
+                <li class="collection-item">
+                    <a href="#">Geodude</a>
+                </li>
+                <li class="collection-item">
+                    <a href="#">Graveler</a>
+                </li>
+                <li class="collection-item">
+                    <a href="#">Golem</a>
+                </li>
+                <li class="collection-item">
+                    <a href="#">Ponyta</a>
+                </li>
+                <li class="collection-item">
+                    <a href="#">Rapidash</a>
+                </li>
+                <li class="collection-item">
+                    <a href="#">Slowpoke</a>
+                </li>
+                <li class="collection-item">
+                    <a href="#">Slowbro</a>
+                </li>
+                <li class="collection-item">
+                    <a href="#">Magnemite</a>
+                </li>
+                <li class="collection-item">
+                    <a href="#">Magneton</a>
+                </li>
+                <li class="collection-item">
+                    <a href="#">Farfetch'd</a>
+                </li>
+                <li class="collection-item">
+                    <a href="#">Doduo</a>
+                </li>
+                <li class="collection-item">
+                    <a href="#">Dodrio</a>
+                </li>
+                <li class="collection-item">
+                    <a href="#">Seel</a>
+                </li>
+                <li class="collection-item">
+                    <a href="#">Dewgong</a>
+                </li>
+                <li class="collection-item">
+                    <a href="#">Grimer</a>
+                </li>
+                <li class="collection-item">
+                    <a href="#">Muk</a>
+                </li>
+                <li class="collection-item">
+                    <a href="#">Shellder</a>
+                </li>
+                <li class="collection-item">
+                    <a href="#">Cloyster</a>
+                </li>
+                <li class="collection-item">
+                    <a href="#">Gastly</a>
+                </li>
+                <li class="collection-item">
+                    <a href="#">Haunter</a>
+                </li>
+                <li class="collection-item">
+                    <a href="#">Gengar</a>
+                </li>
+                <li class="collection-item">
+                    <a href="#">Onix</a>
+                </li>
+                <li class="collection-item">
+                    <a href="#">Drowzee</a>
+                </li>
+                <li class="collection-item">
+                    <a href="#">Hypno</a>
+                </li>
+                <li class="collection-item">
+                    <a href="#">Krabby</a>
+                </li>
+                <li class="collection-item">
+                    <a href="#">Kingler</a>
+                </li>
+                <li class="collection-item">
+                    <a href="#">Voltorb</a>
+                </li>
+                <li class="collection-header">
+                    <h5>101-151</h5>
+                </li>
+                <li class="collection-item">
+                    <a href="#">Electrode</a>
+                </li>
+                <li class="collection-item">
+                    <a href="#">Exeggcute</a>
+                </li>
+                <li class="collection-item">
+                    <a href="#">Exeggutor</a>
+                </li>
+                <li class="collection-item">
+                    <a href="#">Cubone</a>
+                </li>
+                <li class="collection-item">
+                    <a href="#">Marowak</a>
+                </li>
+                <li class="collection-item">
+                    <a href="#">Hitmonlee</a>
+                </li>
+                <li class="collection-item">
+                    <a href="#">Hitmonchan</a>
+                </li>
+                <li class="collection-item">
+                    <a href="#">Lickitung</a>
+                </li>
+                <li class="collection-item">
+                    <a href="#">Koffing</a>
+                </li>
+                <li class="collection-item">
+                    <a href="#">Weezing</a>
+                </li>
+                <li class="collection-item">
+                    <a href="#">Rhyhorn</a>
+                </li>
+                <li class="collection-item">
+                    <a href="#">Rhydon</a>
+                </li>
+                <li class="collection-item">
+                    <a href="#">Chansey</a>
+                </li>
+                <li class="collection-item">
+                    <a href="#">Tangela</a>
+                </li>
+                <li class="collection-item">
+                    <a href="#">Kangaskhan</a>
+                </li>
+                <li class="collection-item">
+                    <a href="#">Horsea</a>
+                </li>
+                <li class="collection-item">
+                    <a href="#">Seadra</a>
+                </li>
+                <li class="collection-item">
+                    <a href="#">Goldeen</a>
+                </li>
+                <li class="collection-item">
+                    <a href="#">Seaking</a>
+                </li>
+                <li class="collection-item">
+                    <a href="#">Staryu</a>
+                </li>
+                <li class="collection-item">
+                    <a href="#">Starmie</a>
+                </li>
+                <li class="collection-item">
+                    <a href="#">Mr. Mime</a>
+                </li>
+                <li class="collection-item">
+                    <a href="#">Scyther</a>
+                </li>
+                <li class="collection-item">
+                    <a href="#">Jynx</a>
+                </li>
+                <li class="collection-item">
+                    <a href="#">Electabuzz</a>
+                </li>
+                <li class="collection-item">
+                    <a href="#">Magmar</a>
+                </li>
+                <li class="collection-item">
+                    <a href="#">Pinsir</a>
+                </li>
+                <li class="collection-item">
+                    <a href="#">Tauros</a>
+                </li>
+                <li class="collection-item">
+                    <a href="#">Magikarp</a>
+                </li>
+                <li class="collection-item">
+                    <a href="#">Gyarados</a>
+                </li>
+                <li class="collection-item">
+                    <a href="#">Lapras</a>
+                </li>
+                <li class="collection-item">
+                    <a href="#">Ditto</a>
+                </li>
+                <li class="collection-item">
+                    <a href="#">Eevee</a>
+                </li>
+                <li class="collection-item">
+                    <a href="#">Vaporeon</a>
+                </li>
+                <li class="collection-item">
+                    <a href="#">Jolteon</a>
+                </li>
+                <li class="collection-item">
+                    <a href="#">Flareon</a>
+                </li>
+                <li class="collection-item">
+                    <a href="#">Porygon</a>
+                </li>
+                <li class="collection-item">
+                    <a href="#">Omanyte</a>
+                </li>
+                <li class="collection-item">
+                    <a href="#">Omastar</a>
+                </li>
+                <li class="collection-item">
+                    <a href="#">Kabuto</a>
+                </li>
+                <li class="collection-item">
+                    <a href="#">Kabutops</a>
+                </li>
+                <li class="collection-item">
+                    <a href="#">Aerodactyl</a>
+                </li>
+                <li class="collection-item">
+                    <a href="#">Snorlax</a>
+                </li>
+                <li class="collection-item">
+                    <a href="#">Articuno</a>
+                </li>
+                <li class="collection-item">
+                    <a href="#">Zapdos</a>
+                </li>
+                <li class="collection-item">
+                    <a href="#">Moltres</a>
+                </li>
+                <li class="collection-item">
+                    <a href="#">Dratini</a>
+                </li>
+                <li class="collection-item">
+                    <a href="#">Dragonair</a>
+                </li>
+                <li class="collection-item">
+                    <a href="#">Dragonite</a>
+                </li>
+                <li class="collection-item">
+                    <a href="#">Mewtwo</a>
+                </li>
+                <li class="collection-item">
+                    <a href="#">Mew</a>
+                </li>
+                
+            </ul>
+        </div>
+        <script>
+        let filterInput = document.getElementById('filterInput');
+            filterInput.addEventListener('keyup', filterInput);
+            function filterNames(){
+                let filterValue = document.getElementById('filterInput').value.toUpperCase();
+                let ul = document.getElementById('names');
+                let li = ul.querySelectorAll('li.collection-item');
+                for(let i = 0; i < li.length; i++)
+                    {
+                        let a = li[i].getElementsByTagName('a')[0];
+                        if(a.innerHTML.toUpperCase().indexOf(filterValue) > -1){
+                            li[i].style.display = '';
+                        }else{
+                            li[i].style.display = 'none';
+                        }
+                    }
+            }
+        </script>
+    </body>
+</html>
